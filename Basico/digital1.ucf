@@ -1,0 +1,24 @@
+
+
+NET "clk" LOC = "M6"; # RELOJ DE LA FPGA
+NET "Rst" LOC = "N3";
+
+NET "Seg7<0>" LOC = "L14"; #Segmento a
+NET "Seg7<1>" LOC = "H12"; #Segmento b
+NET "Seg7<2>" LOC = "N14"; #Segmento c
+NET "Seg7<3>" LOC = "N11"; #Segmento d
+NET "Seg7<4>" LOC = "P12"; #Segmento e
+NET "Seg7<5>" LOC = "L13"; #Segmento f
+NET "Seg7<6>" LOC = "M12"; #Segmento g
+
+NET "Up0" LOC = "A7"; # CONMUTADOR 0
+NET "Down0" LOC = "M4";
+NET "Up1" LOC = "C11";
+NET "Down1" LOC = "G12";  # CONMUTADOR 3
+
+
+NET "Disp3" LOC = "F12"; # ACTIVACIÓN DISP 1
+NET "Disp2" LOC = "J12"; # ACTIVACIÓN DISP 2
+NET "Disp1" LOC = "M13"; # ACTIVACIÓN DISP 1
+NET "Disp0" LOC = "K14"; # ACTIVACIÓN DISP 2
+
